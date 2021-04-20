@@ -1,0 +1,11 @@
+---
+application:
+  name: "test"
+  project: "lpb-rest-api"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-test"
+  routes:
+  - application_name: "test"
+    paths:
+    - "/*"
